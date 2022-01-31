@@ -1,7 +1,6 @@
-let numbers = [1, 3, 4, 5, 6, 7];
+let numbers = [1, 3, 4, 12, 15, 7];
 let sum = 0;
-for(var i = 0; i<numbers.length; i++){
+for(let i = 0; i<numbers.length; i++){
     sum += numbers[i];
 }
-
-console.log(sum);
+console.log(`The summation of array is: ${sum}`);
