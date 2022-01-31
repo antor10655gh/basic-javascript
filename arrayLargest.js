@@ -2,7 +2,7 @@ function largestNumber(numbers){
     let largest = 0;
     for(let i = 0; i < numbers.length; i++){
         let element = numbers[i];
-        if(largest < element){
+        if(element > largest){
             largest = element;
         }
     }
